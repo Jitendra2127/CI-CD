@@ -51,6 +51,6 @@ jobs:
         with:
           publish-dir: ./build
           production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
         env:
           CI: true
